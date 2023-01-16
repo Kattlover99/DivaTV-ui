@@ -1,0 +1,90 @@
+.playlist-preview-container {
+  height: 20rem;
+  width: 30rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.playlist-empty-text {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.playlist-preview-container-col1 {
+  height: 15rem;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.playlist-preview-img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.video-count-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50%;
+  height: 15rem;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.playlist-preview-container-col2 {
+  justify-content: space-around;
+  position: relative;
+}
+
+.playlist-item-count {
+  font-size: 2rem;
+  color: var(--white);
+  margin: 10px;
+}
+
+.preview-icons {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 2rem;
+  position: relative;
+}
+
+.trash-icon {
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.playlist-delete-text {
+  margin: 5px;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+.circle-play {
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.playlist-title {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.playlist-cta-container {
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  position: absolute;
+  right: 75px;
+  top: 28px;
+}
+
+.playlist-cta-container:hover {
+  background-color: var(--secondary-bg-color);
+}

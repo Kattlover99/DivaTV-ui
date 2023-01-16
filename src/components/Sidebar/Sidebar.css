@@ -1,0 +1,29 @@
+.sidebar-container {
+  grid-area: sidebar;
+  width: 20rem;
+  min-height: calc(100vh - 14rem);
+}
+
+.sidebar-item {
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.sidebar-item:hover {
+  background-color: var(--primary-bg-color);
+}
+
+.sidebar-icon {
+  margin: 10px;
+  width: 20%;
+  color: var(--primary-text-color);
+}
+
+.sidebar-text {
+  margin: 15px;
+  width: 80%;
+  color: var(--primary-text-color);
+}

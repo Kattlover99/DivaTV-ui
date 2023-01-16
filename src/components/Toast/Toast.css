@@ -1,0 +1,22 @@
+.toast__container {
+  width: auto;
+  border-radius: 5px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  text-align: center;
+ z-index: 7;
+  background-color: red;
+}
+
+.close-toast-success {
+  cursor: pointer;
+  padding: 5px;
+ z-index: 7;
+}
+
+.close-toast-success:hover {
+  opacity: 0.4;
+ z-index: 7;
+}

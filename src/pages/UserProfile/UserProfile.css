@@ -1,0 +1,7 @@
+.account-details-container {
+  border: 1px solid var(--secondary-text-color);
+  width: 50rem;
+  padding: 2rem;
+  height: fit-content;
+  margin: 2rem auto;
+}

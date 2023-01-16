@@ -1,0 +1,24 @@
+.label {
+  font-size: 2rem;
+  width: 50%;
+  margin: 1rem;
+}
+.upload-video-input {
+  font-size: 2rem;
+  margin: 1rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+}
+.upload-video-title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem;
+}
+.row1 {
+  justify-content: space-between;
+}
+.upload-video-select-category {
+  font-size: 2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.main-page {
+  flex-wrap: wrap;
+}
+.playlist-page-text {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem;
+}
+.playlist-page-link {
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: var(--primary-bg-color);
+}

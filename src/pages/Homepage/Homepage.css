@@ -1,0 +1,82 @@
+.hero-section {
+  background-image: url("../../assets/images/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 55rem;
+  margin: 0px;
+  position: relative;
+  font-family: "Mate SC", serif;
+}
+
+.hero-text {
+  height: 10rem;
+  width: 50rem;
+  position: absolute;
+  top: 10px;
+  left: 7rem;
+  color: var(--primary-text-color);
+}
+
+.hero-text-primary {
+  font-size: 4rem;
+  color: var(--white);
+  font-family: "Karma", serif;
+}
+
+.hero-text-secondary {
+  font-size: 2.5rem;
+  color: var(--white);
+  font-family: "Karma", serif;
+}
+
+.hero-cta-btn {
+  font-size: 3rem;
+  color: var(--primary-text-color);
+}
+
+body {
+  overflow-y: auto;
+}
+
+.category {
+  margin: 2rem;
+}
+
+.categories-section {
+  width: 100%;
+}
+
+.category-img {
+  width: 90rem;
+  height: 45rem;
+}
+
+.category-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.category-text {
+  font-size: 2.5rem;
+  color: var(--primary-text-color);
+  font-family: "Source Code Pro", monospace;
+}
+
+.category-btn {
+  margin: 0px 3rem;
+}
+
+.masterclass-img {
+  width: 50rem;
+  height: 25rem;
+  margin: 1rem;
+}
+
+.power-women{
+  width: 100%;
+  margin: 1rem;
+  height: 55rem;
+
+}

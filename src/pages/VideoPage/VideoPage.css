@@ -1,0 +1,46 @@
+.video-container {
+  margin: 3rem;
+  width: 80%;
+  height: 50rem;
+}
+
+.video-page-title {
+  margin: 1rem 3rem;
+  font-size: 3rem;
+}
+
+.page-subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 3rem;
+}
+
+.video-page-action-container {
+  margin: 1rem 3rem;
+}
+
+.video-page-action {
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  background-color: var(--primary-bg-color);
+}
+
+.video-page-action-text,
+.video-page-action-icon {
+  margin: 0px;
+  padding: 0.8rem;
+  color: var(--primary-text-color);
+}
+
+.video-page-action:hover {
+  background-color: var(--secondary-text-color);
+  color: var(--primary-text-color);
+}
+
+.video-page-desc {
+  margin: 1rem 3rem;
+  font-size: 2rem;
+  color: var(--primary-text-color);
+}

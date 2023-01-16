@@ -1,0 +1,28 @@
+.form-container {
+  width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.terms-condt-checkbox {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.text-link {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+::placeholder {
+  color: var(--grey);
+}

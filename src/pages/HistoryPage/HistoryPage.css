@@ -1,0 +1,7 @@
+.clear-all-btn {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.clear-all-btn:hover {
+  color: var(--primary-text-color);
+}

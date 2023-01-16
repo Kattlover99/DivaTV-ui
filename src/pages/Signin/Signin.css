@@ -1,0 +1,13 @@
+.forgot-pw-text {
+  color: var(--info-color);
+  margin: 1rem;
+  text-align: right;
+}
+
+::placeholder {
+  color: var(--light-grey);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-text-color);
+}
